@@ -33,7 +33,7 @@ const UpdateItem = () => {
                 image: res.data.data.display_url
             }
             // 
-            const toyRes = await axiosSecure.patch(`/menu/${_id}`, toyItem);
+            const toyRes = await axiosSecure.patch(`/toys/${_id}`, toyItem);
             console.log(toyRes.data)
             if(toyRes.data.modifiedCount > 0){
                 // show success popup

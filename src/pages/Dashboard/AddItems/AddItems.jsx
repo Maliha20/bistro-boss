@@ -124,7 +124,8 @@ const AddItems = () => {
 
           <button className="btn">
             Add Item <FaGamepad className="ml-4" />
-          </button>
+          </button> 
+            
         </form>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import useAuth from '../../../hooks/useAuth'
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
-import { FaBook, FaDollarSign, FaUsers } from 'react-icons/fa';
+import { FaBook, FaUsers } from 'react-icons/fa';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, PieChart, Pie, Legend } from 'recharts';
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
@@ -71,10 +71,10 @@ const AdminHome = () => {
 
                 <div className="stat">
                     <div className="stat-figure text-secondary">
-                        <FaDollarSign className='text-3xl'></FaDollarSign>
+                       
                     </div>
                     <div className="stat-title">Revenue</div>
-                    <div className="stat-value">${stats.revenue}</div>
+                    <div className="stat-value">{stats.revenue} BDT</div>
                     <div className="stat-desc">Jan 1st - Feb 1st</div>
                 </div>
 

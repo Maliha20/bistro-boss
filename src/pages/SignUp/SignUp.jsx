@@ -82,7 +82,7 @@ const SignUp = () => {
                 </label>
                 <input
                   type="text"
-                  {...register("photoURL", { required: true })}
+                  {...register("photoURL", { required: false })}
                   placeholder="Photo URL"
                   className="input input-bordered"
                 />

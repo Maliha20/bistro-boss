@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGamepad, FaHome, FaList, FaSearch, FaShoppingCart, FaUsers } from "react-icons/fa";
+import {FaGamepad, FaHome, FaList, FaSearch, FaShoppingCart, FaUsers } from "react-icons/fa";
 import { NavLink, Outlet } from "react-router-dom";
 import useCart from "../hooks/useCart";
 import useAdmin from "../hooks/useAdmin";
@@ -72,11 +72,7 @@ const Dashboard = () => {
                             Toys</NavLink>
                     </li>
                     
-                    <li>
-                        <NavLink to="/order/contact">
-                            <FaEnvelope className="mt-2"></FaEnvelope>
-                            Contact</NavLink>
-                    </li>
+                   
                     
                 </ul>
             </div>

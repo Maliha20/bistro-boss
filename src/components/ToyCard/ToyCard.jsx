@@ -71,7 +71,9 @@ const ToyCard = ({ item }) => {
           >
             Add to Cart
           </button>
+        
         </div>
+        
       </div>
     </div>
   );

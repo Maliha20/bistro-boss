@@ -1,3 +1,4 @@
+
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
@@ -12,7 +13,7 @@ import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
 import AddItems from "../pages/Dashboard/AddItems/AddItems";
 import AdminRoute from "./AdminRoute";
 import ManageItems from "../pages/Dashboard/ManageItems/ManageItems";
-import UpdateItem from "../pages/Dashboard/UpdateItem/UpdateItem";
+import UpdateItem from "../pages/Dashboard/UpdateItems/UpdateItems"
 import Payment from "../pages/Dashboard/Payment/Payment";
 import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
