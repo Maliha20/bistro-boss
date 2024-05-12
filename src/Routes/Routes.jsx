@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home/Home";
-import Menu from "../pages/Menu/Menu/Menu";
 import Order from "../pages/Order/Order/Order";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
@@ -18,6 +17,7 @@ import Payment from "../pages/Dashboard/Payment/Payment";
 import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
 import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
+import Toys from "../pages/Toys/Toys/toys";
 
 export const router = createBrowserRouter([
   {
@@ -29,8 +29,8 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "menu",
-        element: <Menu></Menu>,
+        path: "toys",
+       element: <Toys></Toys>
       },
       {
         path: "order/:category",
@@ -113,7 +113,7 @@ export const router = createBrowserRouter([
           </AdminRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/menu/${params.id}`),
+          fetch(`http://localhost:5000/toys/${params.id}`),
       },
       {
         path: "users",

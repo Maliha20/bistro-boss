@@ -1,4 +1,4 @@
-import { FaEnvelope, FaHome, FaList, FaSearch, FaShoppingCart, FaUsers, FaUtensils } from "react-icons/fa";
+import { FaEnvelope, FaGamepad, FaHome, FaList, FaSearch, FaShoppingCart, FaUsers } from "react-icons/fa";
 import { NavLink, Outlet } from "react-router-dom";
 import useCart from "../hooks/useCart";
 import useAdmin from "../hooks/useAdmin";
@@ -13,29 +13,29 @@ const Dashboard = () => {
     return (
         <div className="flex">
             {/* dashboard side bar */}
-            <div className="w-64 min-h-screen bg-orange-400">
-                <ul className="menu p-4">
+            <div className="w-64 min-h-screen bg-purple-200">
+                <ul className="toys p-4">
                     {
                         isAdmin ? <>
                             <li>
                                 <NavLink to="/dashboard/adminHome">
-                                    <FaHome></FaHome>
+                                    <FaHome className="mt-2"></FaHome>
                                     Admin Home</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/dashboard/addItems">
-                                    <FaUtensils></FaUtensils>
+                                    <FaGamepad className="mt-2"></FaGamepad>
                                     Add Items</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/dashboard/manageItems">
-                                    <FaList></FaList>
+                                    <FaList className="mt-2"></FaList>
                                     Manage Items</NavLink>
                             </li>
                             
                             <li>
                                 <NavLink to="/dashboard/users">
-                                    <FaUsers></FaUsers>
+                                    <FaUsers className="mt-2"></FaUsers>
                                     All Users</NavLink>
                             </li>
                         </>
@@ -43,18 +43,18 @@ const Dashboard = () => {
                             <>
                                 <li>
                                     <NavLink to="/dashboard/userHome">
-                                        <FaHome></FaHome>
+                                        <FaHome className="mt-2"></FaHome>
                                         User Home</NavLink>
                                 </li>
                         
                                 <li>
                                     <NavLink to="/dashboard/cart">
-                                        <FaShoppingCart></FaShoppingCart>
+                                        <FaShoppingCart className="mt-2"></FaShoppingCart>
                                         My Cart ({cart.length})</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to="/dashboard/paymentHistory">
-                                        <FaList></FaList>
+                                        <FaList className="mt-2"></FaList>
                                         Real Payment History</NavLink>
                                 </li>
                             </>
@@ -63,19 +63,21 @@ const Dashboard = () => {
                     <div className="divider"></div>
                     <li>
                         <NavLink to="/">
-                            <FaHome></FaHome>
+                            <FaHome className="mt-2"></FaHome>
                             Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/order/salad">
-                            <FaSearch></FaSearch>
-                            Menu</NavLink>
+                        <NavLink to="/order/dolls">
+                            <FaSearch className="mt-2"></FaSearch>
+                            Toys</NavLink>
                     </li>
+                    
                     <li>
                         <NavLink to="/order/contact">
-                            <FaEnvelope></FaEnvelope>
+                            <FaEnvelope className="mt-2"></FaEnvelope>
                             Contact</NavLink>
                     </li>
+                    
                 </ul>
             </div>
             {/* dashboard content */}

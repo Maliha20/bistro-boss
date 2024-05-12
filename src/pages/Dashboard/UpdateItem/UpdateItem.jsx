@@ -9,7 +9,7 @@ const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
 const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
 
 const UpdateItem = () => {
-    const {name, category, recipe, price, _id} = useLoaderData();
+    const {name, category, details, price, _id} = useLoaderData();
 
     const { register, handleSubmit } = useForm();
     const axiosPublic = useAxiosPublic();
@@ -24,24 +24,24 @@ const UpdateItem = () => {
             }
         });
         if (res.data.success) {
-            // now send the menu item data to the server with the image url
-            const menuItem = {
+            // now send the toy item data to the server with the image url
+            const toyItem = {
                 name: data.name,
                 category: data.category,
                 price: parseFloat(data.price),
-                recipe: data.recipe,
+                details: data.details,
                 image: res.data.data.display_url
             }
             // 
-            const menuRes = await axiosSecure.patch(`/menu/${_id}`, menuItem);
-            console.log(menuRes.data)
-            if(menuRes.data.modifiedCount > 0){
+            const toyRes = await axiosSecure.patch(`/menu/${_id}`, toyItem);
+            console.log(toyRes.data)
+            if(toyRes.data.modifiedCount > 0){
                 // show success popup
                 // reset();
                 Swal.fire({
                     position: "top-end",
                     icon: "success",
-                    title: `${data.name} is updated to the menu.`,
+                    title: `${data.name} is updated to the collection.`,
                     showConfirmButton: false,
                     timer: 1500
                   });
@@ -58,12 +58,12 @@ const UpdateItem = () => {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-control w-full my-6">
                         <label className="label">
-                            <span className="label-text">Recipe Name*</span>
+                            <span className="label-text">Toy Name*</span>
                         </label>
                         <input
                             type="text"
                             defaultValue={name}
-                            placeholder="Recipe Name"
+                            placeholder="Toy Name"
                             {...register('name', { required: true })}
                             required
                             className="input input-bordered w-full" />
@@ -77,11 +77,11 @@ const UpdateItem = () => {
                             <select defaultValue={category} {...register('category', { required: true })}
                                 className="select select-bordered w-full">
                                 <option disabled value="default">Select a category</option>
-                                <option value="salad">Salad</option>
-                                <option value="pizza">Pizza</option>
-                                <option value="soup">Soup</option>
-                                <option value="dessert">Dessert</option>
-                                <option value="drinks">Drinks</option>
+                                <option value="dolls">Dolls</option>
+                                <option value="cars">Cars</option>
+                                <option value="figures">Figures</option>
+                                <option value="board">Board Games</option>
+                                
                             </select>
                         </div>
 
@@ -102,9 +102,9 @@ const UpdateItem = () => {
                     {/* recipe details */}
                     <div className="form-control">
                         <label className="label">
-                            <span className="label-text">Recipe Details</span>
+                            <span className="label-text">Toy Details</span>
                         </label>
-                        <textarea defaultValue={recipe} {...register('recipe')} className="textarea textarea-bordered h-24" placeholder="Bio"></textarea>
+                        <textarea defaultValue={details} {...register('details')} className="textarea textarea-bordered h-24" placeholder="Bio"></textarea>
                     </div>
 
                     <div className="form-control w-full my-6">
@@ -112,7 +112,7 @@ const UpdateItem = () => {
                     </div>
 
                     <button className="btn">
-                        Update menu Item
+                        Update Toy Item
                     </button>
                 </form>
             </div>

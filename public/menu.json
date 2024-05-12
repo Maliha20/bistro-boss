@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "01",
+    "name": "Barbie Dreamhouse",
+    "details": "The Barbie Dreamhouse is a classic dollhouse featuring multiple rooms, modern accessories, and interactive features. With elevator, pool, and customizable furniture, it provides endless imaginative play for Barbie and her friends.",
+    "image": "https://images-cdn.ubuy.co.in/63fcad4b3775047cf21922b5-barbie-4-foot-dreamhouse-3-floors-7.jpg",
+    "category": "dolls",
+    "price": 1200
+  },
+  {
+    "_id": "02",
+    "name": "Bratz Dolls",
+    "details": "Bratz Dolls are fashion-forward dolls with a passion for style and adventure. Each Bratz doll comes with trendy outfits, accessories, and a unique personality, encouraging creativity and self-expression in kids.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM1crs9LbLRKFEKgvD6T057k8Gxfet2WfTEVgtex-lkw&s",
+    "category": "dolls",
+    "price": 800
+  },
+  {
+    "_id": "03",
+    "name": "American Girl Dolls",
+    "details": "American Girl Dolls are beloved for their historical storytelling and diverse characters. Each doll represents a different time period or cultural background, accompanied by books and accessories that bring their stories to life.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtopSc_G2y_r_GyPQivRwSHBfBN9m2En2YyVHCWaq_TfIoPXCDml8Ue6cMwItKii20Jos&usqp=CAU",
+    "category": "dolls",
+    "price": 1000
+  },
+  {
+    "_id": "04",
+    "name": "Baby Alive Dolls",
+    "details": "Baby Alive Dolls are interactive baby dolls that eat, drink, and 'pee.' With realistic features and accessories like bottles and diapers, they provide nurturing play experiences for young caregivers.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZwfXjlGnWS8pY9LeUU1Te2j6U7VmfBwgzmrlhrgQAQ&s",
+    "category": "dolls",
+    "price": 1240
+  },
+  {
+    "_id": "05",
+    "name": "Disney Princess Dolls",
+    "details": "Disney Princess Dolls bring the magic of Disney to life with iconic characters like Cinderella, Belle, and Ariel. Each doll is beautifully crafted with exquisite costumes, allowing children to recreate their favorite fairytales.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DwwwLZGC1yhJM0otvmpxphksGy1cmG9o-vpK3oV_wQ&s",
+    "category": "dolls",
+    "price": 2500
+  }
+,{
+  "_id": "06",
+  "name": "Hot Wheels Ultimate Garage",
+  "details": "The Hot Wheels Ultimate Garage is a massive playset featuring multiple levels, ramps, and parking spaces for endless racing and stunt action. With space for over 100 cars, it's a dream for any Hot Wheels enthusiast.",
+  "image": "https://m.media-amazon.com/images/I/81Wd-Z6Uc6L._AC_SL1500_.jpg",
+  "category": "cars",
+  "price": 1050
+},
+{
+  "_id": "07",
+  "name": "Disney Pixar Cars 3 Ultimate Florida Speedway Track Set",
+  "details": "Inspired by the Disney Pixar Cars movies, this track set recreates the thrilling races of Lightning McQueen and his friends. With multiple tracks, loops, and launchers, it offers high-speed excitement for young racers.",
+  "image": "https://m.media-amazon.com/images/I/91hXLr6-KwL._AC_UF350,350_QL80_DpWeblab_.jpg",
+  "category": "cars",
+  "price": 4800
+},
+{
+  "_id": "08",
+  "name": "LEGO Technic Bugatti Chiron",
+  "details": "The LEGO Technic Bugatti Chiron is a highly detailed replica of the iconic supercar. With working gearbox, steering, and engine pistons, it offers a challenging and rewarding building experience for LEGO enthusiasts.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtsXzmq9Y7ZoW_1-UkSV7Xj0_hlcSSYbIGUUPvCzz_gg&s",
+  "category": "cars",
+  "price": 3500
+},
+{
+  "_id": "09",
+  "name": "Remote Control Lamborghini Veneno",
+  "details": "This remote control Lamborghini Veneno is a sleek and stylish replica of the famous sports car. With full function radio control, it allows kids to race and perform stunts with precision and speed.",
+  "image": "https://images-cdn.ubuy.qa/657ca73404658119b21e639d-qun-feng-remote-control-rc-car-racing.jpg",
+  "category": "cars",
+  "price": 3450
+},
+{
+  "_id": "10",
+  "name": "Micro Machines Super Van City",
+  "details": "Micro Machines Super Van City is a compact playset packed with features. It includes vehicles, roads, and buildings for creating miniature city scenes. With its portable design, kids can take the fun wherever they go.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxlcsqAeCSuflFkIoKseJZ0-enmB1RcSDsCWUwjLsPUw&s",
+  "category": "cars",
+  "price": 3000
+},{
+  "_id": "11",
+  "name": "Settlers of Catan",
+  "details": "Settlers of Catan is a strategy board game where players collect resources and build settlements, cities, and roads on the fictional island of Catan. With its modular board and varied gameplay, it offers endless replayability and competition among players.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz03r_IH1vBkWyd9l3q0HDuyGwBloX0T96R1Hvj40sRw&s",
+  "category": "board",
+  "price": 900
+},
+{
+  "_id": "12",
+  "name": "Ticket to Ride",
+  "details": "Ticket to Ride is a railway-themed board game where players build train routes across North America, Europe, or other regions. By collecting train cards and completing routes, players score points and compete to connect the most cities.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhqPSM42oulWyV4g5Iu2Q1eHV4gMM2ZMcoFW3UZcaMA&s",
+  "category": "board",
+  "price": 850
+},
+{
+  "_id": "13",
+  "name": "Carcassonne",
+  "details": "Carcassonne is a tile-placement board game set in medieval France. Players build cities, roads, and fields by placing tiles strategically and deploying followers to score points. With its simple rules and deep strategy, it appeals to both casual and serious gamers.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5OF12D5kzFtpiyrIMptCUlVckeR6is3BAMdJkMISa6A&s",
+  "category": "board",
+  "price": 1235
+},
+{
+  "_id": "14",
+  "name": "Pandemic",
+  "details": "Pandemic is a cooperative board game where players work together to stop the spread of deadly diseases across the globe. With roles like Medic and Researcher, players must collaborate to find cures and prevent outbreaks before time runs out.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Run849peauApR-xzjRT9ooxWCnyvw84L_Fj6OdR67w&s",
+  "category": "board",
+  "price": 1645
+},
+{
+  "_id": "15",
+  "name": "Codenames",
+  "details": "Codenames is a word-based party game where players give one-word clues to help their teammates identify secret agents hidden among a grid of words. With its simple rules and tense gameplay, it's perfect for gatherings and social events.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-iac1viJja8FTOzAF974KlZRFtGSzNFLZ-lKFjgPN6A&s",
+  "category": "board",
+  "price": 2000
+},
+{
+  "_id": "16",
+  "name": "Funko Pop! Batman",
+  "details": "Funko Pop! Batman is a vinyl figurine featuring the iconic DC Comics character. With its stylized design and collectible appeal, it's a favorite among Batman fans and Funko collectors alike.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfkbjPsrTB--KqXjvTEUg3hQmw6Ap5yWQ6nXfQmNtDqg&s",
+  "category": "figures",
+  "price": 3105
+},
+{
+  "_id": "17",
+  "name": "Marvel Legends Iron Man",
+  "details": "Marvel Legends Iron Man is a highly detailed action figure based on the armored Avenger from Marvel Comics. With multiple points of articulation and interchangeable accessories, it's perfect for recreating epic battles or displaying on a shelf.",
+  "image": "https://geekculture.co/wp-content/uploads/2016/09/Geek-Hasbro-Marvel-Legends-Iron-Man-Helmet-Review-14-of-14-e1474910211458-885x500.jpg",
+  "category": "figures",
+  "price": 2005
+},
+{
+  "_id": "18",
+  "name": "Nendoroid Pikachu",
+  "details": "Nendoroid Pikachu is a cute and chibi-style figure featuring the beloved Pokémon character. With various facial expressions and interchangeable parts, it's highly customizable and perfect for Pokémon fans of all ages.",
+  "image": "https://i.pinimg.com/736x/d0/2d/a7/d02da7476a54c4cb66f95b404edc6b69.jpg",
+  "category": "figures",
+  "price": 3430 
+},
+{
+  "_id": "19",
+  "name": "NECA Godzilla Figure",
+  "details": "NECA Godzilla Figure is a highly detailed and articulated collectible based on the iconic kaiju from Japanese cinema. With its towering size and intricate sculpting, it's a must-have for fans of monster movies and Godzilla enthusiasts.",
+  "image": "https://i.redd.it/pgk8i5qqxr1c1.jpg",
+  "category": "figures",
+  "price": 2440
+},
+{
+  "_id": "20",
+  "name": "Star Wars Black Series Darth Vader",
+  "details": "Star Wars Black Series Darth Vader is a premium action figure featuring the iconic Sith Lord from the Star Wars saga. With movie-accurate details and accessories like lightsabers and removable helmets, it's a centerpiece for any Star Wars collection.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmu3dCDEndWSY-J24SdxWntURy13II3u8cIHJWymA9TQ&s",
+  "category": "figures",
+  "price": 2500
+},
+{
+  "_id": "21",
+  "name": "LEGO Star Wars Millennium Falcon",
+  "details": "The LEGO Star Wars Millennium Falcon is an iconic spaceship model from the Star Wars saga. With its intricate design and minifigure characters like Han Solo and Chewbacca, it offers hours of building and imaginative play.",
+  "image": "https://m.media-amazon.com/images/I/71XSK10rPrL._AC_SL1000_.jpg",
+  "category": "offered",
+  "price": 1510
+},
+{
+  "_id": "22",
+  "name": "Monopoly",
+  "details": "Monopoly is a classic board game of buying, selling, and trading properties. With its timeless gameplay and iconic tokens like the thimble and the dog, it's been a family favorite for generations.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYHJr6cZ72zHuXATvkFxfXH2YIIBPttxu6-5eQUEPgBg&s",
+  "category": "offered",
+  "price": 2000
+},
+{
+  "_id": "23",
+  "name": "Transformers Optimus Prime Action Figure",
+  "details": "Transformers Optimus Prime Action Figure is a highly articulated and detailed toy based on the leader of the Autobots. With its transformation feature from robot to truck mode, it brings the excitement of the Transformers franchise to life.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLMKhsxY7jE2T5XRWKKzGgYfladO2WSZI9Umh9JDF8uw&s",
+  "category": "offered",
+  "price": 4350
+},
+{
+  "_id": "24",
+  "name": "Risk",
+  "details": "Risk is a strategy board game of world domination. With its map of the world divided into territories and armies to command, players must use tactics and diplomacy to conquer continents and defeat their opponents.",
+  "image": "https://s.cafebazaar.ir/images/upload/screenshot/com.hasbro.riskbigscreen-98143ac6-ec22-416c-9e10-22c2bbeaa59f.png?x-img=v1/resize,h_600,lossless_false/optimize",
+  "category": "offered",
+  "price": 3420
+},
+{
+  "_id": "25",
+  "name": "Paw Patrol Action Pack Pups",
+  "details": "Paw Patrol Action Pack Pups are miniature figures based on the popular animated series. With characters like Chase and Marshall, each pup comes with its own unique rescue accessory, perfect for recreating adventures in Adventure Bay.",
+  "image": "https://m.media-amazon.com/images/I/81jICAVJCvL.jpg",
+  "category": "offered",
+  "price": 1560
+},
+{
+  "_id": "26",
+  "name": "Barbie Dreamhouse",
+  "details": "The Barbie Dreamhouse is a classic dollhouse featuring multiple rooms, modern accessories, and interactive features. With an elevator, pool, and customizable furniture, it provides endless imaginative play for Barbie and her friends.",
+  "image": "https://images-cdn.ubuy.co.in/63fcad4b3775047cf21922b5-barbie-4-foot-dreamhouse-3-floors-7.jpg",
+  "category": "popular",
+  "price": 1200
+},
+{
+  "_id": "27",
+  "name": "Hot Wheels Ultimate Garage",
+  "details": "The Hot Wheels Ultimate Garage is a massive playset featuring multiple levels, ramps, and parking spaces for endless racing and stunt action. With space for over 100 cars, it's a dream for any Hot Wheels enthusiast.",
+  "image": "https://m.media-amazon.com/images/I/81Wd-Z6Uc6L._AC_SL1500_.jpg",
+  "category": "popular",
+  "price": 1050
+},
+{
+  "_id": "28",
+  "name": "Ticket to Ride",
+  "details": "Ticket to Ride is a railway-themed board game where players build train routes across North America, Europe, or other regions. By collecting train cards and completing routes, players score points and compete to connect the most cities.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhqPSM42oulWyV4g5Iu2Q1eHV4gMM2ZMcoFW3UZcaMA&s",
+  "category": "popular",
+  "price": 850
+},
+{
+  "_id": "29",
+  "name": "Nendoroid Pikachu",
+  "details": "Nendoroid Pikachu is a cute and chibi-style figure featuring the beloved Pokémon character. With various facial expressions and interchangeable parts, it's highly customizable and perfect for Pokémon fans of all ages.",
+  "image": "https://i.pinimg.com/736x/d0/2d/a7/d02da7476a54c4cb66f95b404edc6b69.jpg",
+  "category": "popular",
+  "price": 3430 
+},
+{
+  "_id": "30",
+  "name": "Settlers of Catan",
+  "details": "Settlers of Catan is a strategy board game where players collect resources and build settlements, cities, and roads on the fictional island of Catan. With its modular board and varied gameplay, it offers endless replayability and competition among players.",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz03r_IH1vBkWyd9l3q0HDuyGwBloX0T96R1Hvj40sRw&s",
+  "category": "popular",
+  "price": 900
+}
+]
+    

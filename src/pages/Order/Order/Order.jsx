@@ -3,48 +3,48 @@ import orderCoverImg from "../../../assets/shop/order.jpg";
 import Cover from "../../Shared/Cover/Cover";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import useMenu from "../../../hooks/useMenu";
+import useToys from "../../../hooks/useToys";
 import OrderTab from "../OrderTab/OrderTab";
 import { useParams } from "react-router";
 import { Helmet } from "react-helmet-async";
 
 const Order = () => {
-  const categories = ["main", "soup", "dessert", "drinks"];
+  const categories = ["dolls", "cars", "figures", "board"];
   const { category } = useParams();
   const initialIndex = categories.indexOf(category);
   const [tabIndex, setTabIndex] = useState(initialIndex);
-  const [menu] = useMenu();
+  const [toys] = useToys();
 
-  const desserts = menu.filter((item) => item.category === "dessert");
-  const soup = menu.filter((item) => item.category === "soup");
-  const main = menu.filter((item) => item.category === "main");
-  const drinks = menu.filter((item) => item.category === "drinks");
+  const dolls = toys.filter((item) => item.category === "dolls");
+  const cars = toys.filter((item) => item.category === "cars");
+  const figures = toys.filter((item) => item.category === "figures");
+  const board = toys.filter((item) => item.category === "board");
 
   return (
     <div>
       <Helmet>
-        <title>UrbanEats | Order Food</title>
+        <title>EnchantedToyland | Order Toy</title>
       </Helmet>
-      <Cover img={orderCoverImg} title="Order Food"></Cover>
+      <Cover img={orderCoverImg} title="Order Toy"></Cover>
       <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
-          <Tab>Main</Tab>
-          <Tab>Soup</Tab>
-          <Tab>Dessert</Tab>
-          <Tab>Drinks</Tab>
+          <Tab>Dolls</Tab>
+          <Tab>Cars</Tab>
+          <Tab>Figures</Tab>
+          <Tab>Board Games</Tab>
         </TabList>
 
         <TabPanel>
-          <OrderTab items={main}></OrderTab>
+          <OrderTab items={dolls}></OrderTab>
         </TabPanel>
         <TabPanel>
-          <OrderTab items={soup}></OrderTab>
+          <OrderTab items={cars}></OrderTab>
         </TabPanel>
         <TabPanel>
-          <OrderTab items={desserts}></OrderTab>
+          <OrderTab items={figures}></OrderTab>
         </TabPanel>
         <TabPanel>
-          <OrderTab items={drinks}></OrderTab>
+          <OrderTab items={board}></OrderTab>
         </TabPanel>
       </Tabs>
     </div>

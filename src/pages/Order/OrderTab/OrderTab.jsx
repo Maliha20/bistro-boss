@@ -1,4 +1,4 @@
-import FoodCard from '../../../components/FoodCard/FoodCard';
+import ToyCard from '../../../components/ToyCard/ToyCard';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css";
@@ -22,10 +22,10 @@ const OrderTab = ({ items }) => {
                 <SwiperSlide>
                     <div className='grid md:grid-cols-3 gap-10'>
                         {
-                            items.map(item => <FoodCard
+                            items.map(item => <ToyCard
                                 key={item._id}
                                 item={item}
-                            ></FoodCard>)
+                            ></ToyCard>)
                         }
                     </div>
 

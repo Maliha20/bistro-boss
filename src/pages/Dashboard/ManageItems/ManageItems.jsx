@@ -1,13 +1,13 @@
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
-import useMenu from "../../../hooks/useMenu";
+import useToys from "../../../hooks/useToys";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { Link } from "react-router-dom";
 
 
 const ManageItems = () => {
-    const [menu, , refetch] = useMenu();
+    const [toys, , refetch] = useToys();
     const axiosSecure = useAxiosSecure();
 
     const handleDeleteItem = (item) => {
@@ -21,7 +21,7 @@ const ManageItems = () => {
             confirmButtonText: "Yes, delete it!"
         }).then(async (result) => {
             if (result.isConfirmed) {
-                const res = await axiosSecure.delete(`/menu/${item._id}`);
+                const res = await axiosSecure.delete(`/toys/${item._id}`);
                 // console.log(res.data);
                 if (res.data.deletedCount > 0) {
                     // refetch to update the ui
@@ -61,7 +61,7 @@ const ManageItems = () => {
                         </thead>
                         <tbody>
                             {
-                                menu.map((item, index) => <tr key={item._id}>
+                                toys.map((item, index) => <tr key={item._id}>
                                     <td>
                                         {index + 1}
                                     </td>

@@ -92,8 +92,8 @@ const AdminHome = () => {
                     <div className="stat-figure text-secondary">
                         <FaBook className='text-3xl'></FaBook>
                     </div>
-                    <div className="stat-title">Menu Items</div>
-                    <div className="stat-value">{stats.menuItems}</div>
+                    <div className="stat-title">Toy Items</div>
+                    <div className="stat-value">{stats.toyItems}</div>
                     <div className="stat-desc">↗︎ 400 (22%)</div>
                 </div>
 
