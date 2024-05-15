@@ -1,0 +1,55 @@
+[
+  {
+    "_id": { "$oid": "6634b2d744bd362ee8c36658" },
+    "email": "nowrinalam498@gmail.com",
+    "name": "Nowrin Alam",
+    "role": "admin"
+  },
+  {
+    "_id": { "$oid": "663851fee48f0cd57399aeab" },
+    "name": "Sarah",
+    "email": "Sarah@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6638c2a4a0c5290c12827539" },
+    "name": "mita",
+    "email": "mita20@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "663a7ca3b0b489ce3a3746cd" },
+    "name": "Prova",
+    "email": "prova123@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "663a7cd8b0b489ce3a3746ce" },
+    "name": "Himika",
+    "email": "himika90@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "663a7d17b0b489ce3a3746cf" },
+    "name": "Shiuli13",
+    "email": "shiuli13@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "663bc0a7e15a312958b34f8f" },
+    "email": "mariummmaliha@gmail.com",
+    "name": "Cookliet"
+  },
+  {
+    "_id": { "$oid": "663bc19be15a312958b34f94" },
+    "name": "Gulista",
+    "email": "gulista.mariu40@gmail.com",
+    "role": "user"
+  },
+  {
+    "_id": { "$oid": "6640ae2bca44e438bbae116f" },
+    "name": "Norua",
+    "email": "norua1@gmail.com",
+    "role": "admin"
+  }
+]
